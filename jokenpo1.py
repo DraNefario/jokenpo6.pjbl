@@ -11,7 +11,7 @@ while True:
        print("escolha invalida. Por favor digte uma escolha valida")
        continue
 
-    computador = random.choices(opcoes)
+    computador = random.choice(opcoes)
     print("a escolha do computador foi", str(computador))
 
     if computador == jogador:
