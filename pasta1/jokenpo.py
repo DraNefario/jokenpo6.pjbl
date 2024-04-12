@@ -10,18 +10,19 @@ placarComputador1 = 0
 placarComputador2 = 0
 
 while True:
-    print("foram jogadas",vezesJogadas, "partidas")
-    print("pontos do jogador = ",placarJogador)
-    print("pontos da maquina = ",placarComputador)
-    print("pontos do jogador 1 = ",placarJogador1)
-    print("pontos da jogador 2 = ",placarJogador2)
-    print("pontos do computador 1 = ",placarComputador1)
-    print("pontos do computador 2 = ",placarComputador2)
+
 
     modo = input("Digite 1 para humano vs máquina, 2 para humano vs humano e 3 para máquina vs máquina (ou 'sair' para encerrar): ")
 
     if modo == 'sair':
         print("Obrigado por jogar!")
+         print("foram jogadas",vezesJogadas, "partidas")
+         print("pontos do jogador = ",placarJogador)
+         print("pontos da maquina = ",placarComputador)
+        print("pontos do jogador 1 = ",placarJogador1)
+    print("pontos da jogador 2 = ",placarJogador2)
+    print("pontos do computador 1 = ",placarComputador1)
+    print("pontos do computador 2 = ",placarComputador2)
         break
 
     modo = int(modo)
@@ -30,6 +31,13 @@ while True:
         jogador = input("Escolha pedra, papel ou tesoura (ou 'sair' para encerrar): ").lower()
         if jogador == "sair":
             print("Obrigado por jogar!")
+             print("foram jogadas",vezesJogadas, "partidas")
+    print("pontos do jogador = ",placarJogador)
+    print("pontos da maquina = ",placarComputador)
+    print("pontos do jogador 1 = ",placarJogador1)
+    print("pontos da jogador 2 = ",placarJogador2)
+    print("pontos do computador 1 = ",placarComputador1)
+    print("pontos do computador 2 = ",placarComputador2)
             break
         elif jogador not in ["pedra", "papel", "tesoura"]:
             print("Escolha inválida. Por favor, digite uma escolha válida.")
@@ -56,6 +64,13 @@ while True:
         jogador1 = input("Jogador 1, escolha pedra, papel ou tesoura (ou 'sair' para encerrar): ").lower()
         if jogador1 == "sair":
             print("Obrigado por jogar!")
+             print("foram jogadas",vezesJogadas, "partidas")
+    print("pontos do jogador = ",placarJogador)
+    print("pontos da maquina = ",placarComputador)
+    print("pontos do jogador 1 = ",placarJogador1)
+    print("pontos da jogador 2 = ",placarJogador2)
+    print("pontos do computador 1 = ",placarComputador1)
+    print("pontos do computador 2 = ",placarComputador2)
             break
         elif jogador1 not in ["pedra", "papel", "tesoura"]:
             print("Escolha inválida. Por favor, digite uma escolha válida.")
@@ -64,6 +79,13 @@ while True:
         jogador2 = input("Jogador 2, escolha pedra, papel ou tesoura (ou 'sair' para encerrar): ").lower()
         if jogador2 == "sair":
             print("Obrigado por jogar!")
+             print("foram jogadas",vezesJogadas, "partidas")
+    print("pontos do jogador = ",placarJogador)
+    print("pontos da maquina = ",placarComputador)
+    print("pontos do jogador 1 = ",placarJogador1)
+    print("pontos da jogador 2 = ",placarJogador2)
+    print("pontos do computador 1 = ",placarComputador1)
+    print("pontos do computador 2 = ",placarComputador2)
             break
         elif jogador2 not in ["pedra", "papel", "tesoura"]:
             print("Escolha inválida. Por favor, digite uma escolha válida.")
