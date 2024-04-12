@@ -46,7 +46,7 @@ while modo != 'sair':
                 print("Empate!")
                 vezesJogadas += 1
                 print("pontos do jogador = ", placarJogador)
-                print("pontos da máquina = ", placarComputador)
+                print("pontos do computador = ", placarComputador)
             elif (jogador == pedra and computador == tesoura) or \
                     (jogador == papel and computador == pedra) or \
                     (jogador == tesoura and computador == papel):
@@ -54,19 +54,19 @@ while modo != 'sair':
                 vezesJogadas += 1
                 placarJogador +=1
                 print("pontos do jogador = ", placarJogador)
-                print("pontos da máquina = ", placarComputador)
+                print("pontos do computador = ", placarComputador)
             else:
                 print("Você perdeu!")
                 vezesJogadas += 1
                 placarComputador +=1
                 print("pontos do jogador = ", placarJogador)
-                print("pontos da máquina = ", placarComputador)
+                print("pontos do computador = ", placarComputador)
 
             continuar = input("Digite 'continuar' para jogar novamente ou 'sair' para encerrar: ")
             if continuar.lower() == 'sair':
                 print("foram jogadas", vezesJogadas, "partidas")
                 print("pontos do jogador = ", placarJogador)
-                print("pontos da máquina = ", placarComputador)
+                print("pontos do computador = ", placarComputador)
                 print("Obrigado por jogar!")
                 print("Alunos: Danillo, Ricardo, Samuel, Thomas")
                 continuar_jogando = False
@@ -105,8 +105,8 @@ while modo != 'sair':
             
             if jogador1 == jogador2:
                 print("Empate!")
-                print("pontos do jogador = ", placarJogador1)
-                print("pontos da máquina = ", placarJogador2)
+                print("pontos do jogador 1 = ", placarJogador1)
+                print("pontos da jogador 2 = ", placarJogador2)
                 vezesJogadas += 1
             elif (jogador1 == pedra and jogador2 == tesoura) or \
                     (jogador1 == papel and jogador2 == pedra) or \
@@ -114,20 +114,20 @@ while modo != 'sair':
                 print("O jogador 1 ganhou!")
                 vezesJogadas += 1
                 placarJogador1 +=1
-                print("pontos do jogador = ", placarJogador1)
-                print("pontos da máquina = ", placarJogador2)
+                print("pontos do jogador 1 = ", placarJogador1)
+                print("pontos do jogador 2 = ", placarJogador2)
             else:
                 print("O jogador 2 ganhou!")
                 vezesJogadas += 1
                 placarJogador2 +=1
-                print("pontos do jogador = ", placarJogador1)
-                print("pontos da máquina = ", placarJogador2)
+                print("pontos do jogador 1 = ", placarJogador1)
+                print("pontos do jogador 2 = ", placarJogador2)
 
             continuar = input("Digite 'continuar' para jogar novamente ou 'sair' para encerrar: ")
             if continuar.lower() == 'sair':
                 print("foram jogadas", vezesJogadas, "partidas")
-                print("pontos do jogador = ", placarJogador1)
-                print("pontos da máquina = ", placarJogador2)
+                print("pontos do jogador 1 = ", placarJogador1)
+                print("pontos do jogador 2 = ", placarJogador2)
                 print("Obrigado por jogar!")
                 print("Alunos: Danillo, Ricardo, Samuel, Thomas")
                 continuar_jogando = False
@@ -157,30 +157,30 @@ while modo != 'sair':
 
             if computador1 == computador2:
                 print("Empate!")
-                print("pontos do jogador = ", placarComputador1)
-                print("pontos da máquina = ", placarComputador2)
+                print("pontos do computador 1 = ", placarComputador1)
+                print("pontos da computador 2 = ", placarComputador2)
                 vezesJogadas += 1
             elif (computador1 == pedra and computador2 == tesoura) or \
                     (computador1 == papel and computador2 == pedra) or \
                     (computador1 == tesoura and computador2 == papel):
                 print("O computador 1 ganhou!")
-                print("pontos do jogador = ", placarComputador1)
-                print("pontos da máquina = ", placarComputador2)
                 placarComputador1 += 1
                 vezesJogadas += 1
+                print("pontos do computador 1 = ", placarComputador1)
+                print("pontos da computador 2 = ", placarComputador2)
             else:
                 print("O computador 2 ganhou!")
                 placarComputador2 += 1
                 vezesJogadas += 1
-                print("pontos do jogador = ", placarComputador1)
-                print("pontos da máquina = ", placarComputador)
+                print("pontos do computador 1 = ", placarComputador1)
+                print("pontos da computador 2 = ", placarComputador2)
 
 
             continuar = input("Digite 'continuar' para jogar novamente ou 'sair' para encerrar: ")
             if continuar.lower() == 'sair':
                 print("foram jogadas", vezesJogadas, "partidas")
-                print("pontos do jogador 1 = ", placarComputador1)
-                print("pontos do jogador 2 = ", placarComputador2)
+                print("pontos do computador 1 = ", placarComputador1)
+                print("pontos da computador 2 = ", placarComputador2)
                 print("Obrigado por jogar!")
                 print("Alunos: Danillo, Ricardo, Samuel, Thomas")
                 continuar_jogando = False
