@@ -84,7 +84,7 @@ while modo != 'sair':
                 print("Alunos: Danillo, Ricardo, Samuel, Thomas")
                 continuar_jogando = False
                 break
-            elif jogador1 != pedra and jogador1 != papel and jogador1 != tesoura:
+            elif jogador1 != tesoura and jogador2 != papel and jogador2 != pedra:
                 print("Escolha inválida. Por favor, digite uma escolha válida.")
                 continue
             
@@ -97,7 +97,7 @@ while modo != 'sair':
                 print("Alunos: Danillo, Ricardo, Samuel, Thomas")
                 continuar_jogando = False
                 break
-            elif jogador2 != pedra and jogador2 != papel and jogador2 != tesoura:
+            elif jogador2 != tesoura and jogador2 != papel and jogador2 != pedra:
                 print("Escolha inválida. Por favor, digite uma escolha válida.")
                 continue
             
