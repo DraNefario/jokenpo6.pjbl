@@ -111,7 +111,7 @@ while modo != 'sair':
             elif (jogador1 == pedra and jogador2 == tesoura) or \
                     (jogador1 == papel and jogador2 == pedra) or \
                     (jogador1 == tesoura and jogador2 == papel):
-                print("O jogador_1 ganhou!")
+                print("O jogador 1 ganhou!")
                 vezesJogadas += 1
                 placarJogador1 +=1
                 print("Pontuação do jogador 1 = ", placarJogador1)
