@@ -184,6 +184,6 @@ while modo != 'sair':
                 print("Obrigado por jogar o nosso Jokenpô!!")
                 print("Alunos: Danillo, Ricardo, Samuel, Thomas")
                 continuar_jogando = False
-                break  
+                break
 
-    break   
+    break
