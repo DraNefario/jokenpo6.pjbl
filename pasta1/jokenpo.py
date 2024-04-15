@@ -12,14 +12,14 @@ placarJogador2 = 0
 placarComputador1 = 0
 placarComputador2 = 0
 
-modo = input("Digite 1 para humano vs máquina, 2 para humano vs humano e 3 para máquina vs máquina ou sair para encerrar: ")
+modo = input("Bem-vindo! Pressione 1 para Humano vs. Computador, 2 para Humano vs. Humano, 3 para Computador vs. Computador e 'sair' para finalizar o programa:")
 
 while modo != 'sair':
     modo = int(modo)
     if modo == 1:
         continuar_jogando = True
         while continuar_jogando:
-            jogador = input("Escolha pedra, papel ou tesoura ou sair para encerrar: ").lower()
+            jogador = input("Digite pedra, papel, tesoura ou 'sair' para finalizar o programa: ").lower()
             if jogador == "sair":
                 print("foram jogadas", vezesJogadas, "partidas")
                 print("pontos do jogador = ", placarJogador)
@@ -62,7 +62,7 @@ while modo != 'sair':
                 print("pontos do jogador = ", placarJogador)
                 print("pontos do computador = ", placarComputador)
 
-            continuar = input("Digite continuar para jogar novamente ou sair para encerrar: ")
+            continuar = input("Digite 'continuar' para jogar o Jokenpô de novo ou 'sair' para finalizar o programa: ")
             if continuar.lower() == 'sair':
                 print("foram jogadas", vezesJogadas, "partidas")
                 print("pontos do jogador = ", placarJogador)
