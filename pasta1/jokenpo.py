@@ -176,7 +176,7 @@ while modo != 'sair':
                 print("Pontuação do computador_2 = ", placarComputador2)
 
 
-            continuar = input("Digite 'continuar' para jogar o Jokenpô de novo ou 'sair' para finalizar o Jokenpô: ")
+            continuar = input("Digite continuar para jogar o Jokenpô de novo ou sair para finalizar o Jokenpô: ")
             if continuar.lower() == 'sair':
                 print("foram jogadas", vezesJogadas, "partidas")
                 print("Pontuação do computador_1 = ", placarComputador1)
