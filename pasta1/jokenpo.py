@@ -24,7 +24,7 @@ while modo != 'sair':
                 print("foram jogadas", vezesJogadas, "partidas")
                 print("Pontuação do jogador = ", placarJogador)
                 print("Pontuação do computador = ", placarComputador)
-                print("Obrigado por jogar")
+                print("Obrigado por jogar o nosso Jokenpô!")
                 print("Alunos: Danillo, Ricardo, Samuel, Thomas")
                 continuar_jogando = False
                 break
@@ -67,7 +67,7 @@ while modo != 'sair':
                 print("foram jogadas", vezesJogadas, "partidas")
                 print("Pontuação do jogador = ", placarJogador)
                 print("Pontuação do computador = ", placarComputador)
-                print("Obrigado por jogar")
+                print("Obrigado por jogar o nosso Jokenpô!")
                 print("Alunos: Danillo, Ricardo, Samuel, Thomas")
                 continuar_jogando = False
                 break
@@ -80,7 +80,7 @@ while modo != 'sair':
                 print("foram jogadas", vezesJogadas, "partidas")
                 print("Pontuação do jogador_1 = ", placarJogador1)
                 print("Pontuação do jogador_2 = ", placarJogador2)
-                print("Obrigado por jogar")
+                print("Obrigado por jogar o nosso Jokenpô!")
                 print("Alunos: Danillo, Ricardo, Samuel, Thomas")
                 continuar_jogando = False
                 break
@@ -93,7 +93,7 @@ while modo != 'sair':
                 print("foram jogadas", vezesJogadas, "partidas")
                 print("Pontuação do jogador_1 = ", placarJogador1)
                 print("Pontuação do jogador_2 = ", placarJogador2)
-                print("Obrigado por jogar")
+                print("Obrigado por jogar o nosso Jokenpô!")
                 print("Alunos: Danillo, Ricardo, Samuel, Thomas")
                 continuar_jogando = False
                 break
@@ -128,7 +128,7 @@ while modo != 'sair':
                 print("foram jogadas", vezesJogadas, "partidas")
                 print("Pontuação do jogador_1 = ", placarJogador1)
                 print("Pontuação do jogador_2 = ", placarJogador2)
-                print("Obrigado por jogar")
+                print("Obrigado por jogar o nosso Jokenpô!")
                 print("Alunos: Danillo, Ricardo, Samuel, Thomas")
                 continuar_jogando = False
                 break
@@ -181,7 +181,7 @@ while modo != 'sair':
                 print("foram jogadas", vezesJogadas, "partidas")
                 print("Pontuação do computador_1 = ", placarComputador1)
                 print("Pontuação do computador_2 = ", placarComputador2)
-                print("Obrigado por jogar")
+                print("Obrigado por jogar o nosso Jokenpô!")
                 print("Alunos: Danillo, Ricardo, Samuel, Thomas")
                 continuar_jogando = False
                 break  
