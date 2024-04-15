@@ -153,7 +153,7 @@ while modo != 'sair':
                 computador2 = tesoura
 
             print("A escolha do computador_1 foi", computador1)
-            print("A escolha do computador 2 foi", computador2)
+            print("A escolha do computador_2 foi", computador2)
 
             if computador1 == computador2:
                 print("Empate!")
