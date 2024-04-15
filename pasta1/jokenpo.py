@@ -62,7 +62,7 @@ while modo != 'sair':
                 print("Pontuação do jogador = ", placarJogador)
                 print("Pontuação do computador = ", placarComputador)
 
-            continuar = input("Insira 'continuar' para jogar o jogo mais uma vez ou 'sair' para finaliza-lo: ")
+            continuar = input("Digitar 'continuar' para jogar de novo ou 'sair' para finalizá-lo:")
             if continuar.lower() == 'sair':
                 print("foram jogadas", vezesJogadas, "partidas")
                 print("Pontuação do jogador = ", placarJogador)
