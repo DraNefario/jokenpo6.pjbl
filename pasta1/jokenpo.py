@@ -75,11 +75,11 @@ while modo != 'sair':
     elif modo == 2:
         continuar_jogando = True
         while continuar_jogando:
-            jogador1 = input("Jogador_1, digite pedra, papel, tesoura ou 'sair' para finalizar o Jokenpô:: ").lower()
+            jogador1 = input("Jogador_1, digite pedra, papel, tesoura ou 'sair' para finalizar o Jokenpô: ").lower()
             if jogador1 == "sair":
                 print("foram jogadas", vezesJogadas, "partidas")
-                print("Pontuação do jogador_1 = ", placarJogador1)
-                print("Pontuação do jogador_2 = ", placarJogador2)
+                print("Pontuação do jogador 1 = ", placarJogador1)
+                print("Pontuação do jogador 2 = ", placarJogador2)
                 print("Obrigado por jogar o nosso Jokenpô!")
                 print("Alunos: Danillo, Ricardo, Samuel, Thomas")
                 continuar_jogando = False
@@ -91,8 +91,8 @@ while modo != 'sair':
             jogador2 = input("Jogador 2, digite pedra, papel, tesoura ou 'sair' para finalizar o Jokenpô: ").lower()
             if jogador2 == "sair":
                 print("foram jogadas", vezesJogadas, "partidas")
-                print("Pontuação do jogador_1 = ", placarJogador1)
-                print("Pontuação do jogador_2 = ", placarJogador2)
+                print("Pontuação do jogador 1 = ", placarJogador1)
+                print("Pontuação do jogador 2 = ", placarJogador2)
                 print("Obrigado por jogar o nosso Jokenpô!")
                 print("Alunos: Danillo, Ricardo, Samuel, Thomas")
                 continuar_jogando = False
@@ -101,12 +101,12 @@ while modo != 'sair':
                 print("Escolha inválida. Por favor, digite uma escolha válida.")
                 continue
             
-            print("Resultado: as jogadas dos jogadores 1 e dois foram de:", jogador1,"e", jogador2, ",respectivamente.")
+            print("Resultado: as jogadas dos jogadores 1 e dois foram de:", jogador1,"e", jogador2,",respectivamente.")
             
             if jogador1 == jogador2:
                 print("Empate")
-                print("Pontuação do jogador_1 = ", placarJogador1)
-                print("Pontuação do jogador_2 = ", placarJogador2)
+                print("Pontuação do jogador 1 = ", placarJogador1)
+                print("Pontuação do jogador 2 = ", placarJogador2)
                 vezesJogadas += 1
             elif (jogador1 == pedra and jogador2 == tesoura) or \
                     (jogador1 == papel and jogador2 == pedra) or \
@@ -114,20 +114,20 @@ while modo != 'sair':
                 print("O jogador_1 ganhou!")
                 vezesJogadas += 1
                 placarJogador1 +=1
-                print("Pontuação do jogador_1 = ", placarJogador1)
-                print("Pontuação do jogador_2 = ", placarJogador2)
+                print("Pontuação do jogador 1 = ", placarJogador1)
+                print("Pontuação do jogador 2 = ", placarJogador2)
             else:
                 print("O jogador 2 ganhou!")
                 vezesJogadas += 1
                 placarJogador2 +=1
-                print("Pontuação do jogador_1 = ", placarJogador1)
-                print("Pontuação do jogador_2 = ", placarJogador2)
+                print("Pontuação do jogador 1 = ", placarJogador1)
+                print("Pontuação do jogador 2 = ", placarJogador2)
 
             continuar = input("Digite continuar para jogar novamente ou sair para encerrar: ")
             if continuar.lower() == 'sair':
                 print("foram jogadas", vezesJogadas, "partidas")
-                print("Pontuação do jogador_1 = ", placarJogador1)
-                print("Pontuação do jogador_2 = ", placarJogador2)
+                print("Pontuação do jogador 1 = ", placarJogador1)
+                print("Pontuação do jogador 2 = ", placarJogador2)
                 print("Obrigado por jogar o nosso Jokenpô!")
                 print("Alunos: Danillo, Ricardo, Samuel, Thomas")
                 continuar_jogando = False
@@ -152,13 +152,13 @@ while modo != 'sair':
             else:
                 computador2 = tesoura
 
-            print("A escolha do computador_1 foi", computador1)
-            print("A escolha do computador_2 foi", computador2)
+            print("A escolha do computador 1 foi", computador1)
+            print("A escolha do computador 2 foi", computador2)
 
             if computador1 == computador2:
                 print("Empate!")
-                print("Pontuação do computador_1 = ", placarComputador1)
-                print("Pontuação da computador_2 = ", placarComputador2)
+                print("Pontuação do computador 1 = ", placarComputador1)
+                print("Pontuação da computador 2 = ", placarComputador2)
                 vezesJogadas += 1
             elif (computador1 == pedra and computador2 == tesoura) or \
                     (computador1 == papel and computador2 == pedra) or \
@@ -166,21 +166,21 @@ while modo != 'sair':
                 print("O computador 1 ganhou!")
                 placarComputador1 += 1
                 vezesJogadas += 1
-                print("Pontuação do computador_1 = ", placarComputador1)
-                print("Pontuação do computador_2 = ", placarComputador2)
+                print("Pontuação do computador 1 = ", placarComputador1)
+                print("Pontuação do computador 2 = ", placarComputador2)
             else:
                 print("O computador 2 ganhou!")
                 placarComputador2 += 1
                 vezesJogadas += 1
-                print("Pontuação do computador_1 = ", placarComputador1)
-                print("Pontuação do computador_2 = ", placarComputador2)
+                print("Pontuação do computador 1 = ", placarComputador1)
+                print("Pontuação do computador 2 = ", placarComputador2)
 
 
             continuar = input("Digite continuar para jogar o Jokenpô de novo ou sair para finalizar o Jokenpô: ")
             if continuar.lower() == 'sair':
                 print("foram jogadas", vezesJogadas, "partidas")
-                print("Pontuação do computador_1 = ", placarComputador1)
-                print("Pontuação do computador_2 = ", placarComputador2)
+                print("Pontuação do computador 1 = ", placarComputador1)
+                print("Pontuação do computador 2 = ", placarComputador2)
                 print("Obrigado por jogar o nosso Jokenpô!")
                 print("Alunos: Danillo, Ricardo, Samuel, Thomas")
                 continuar_jogando = False
