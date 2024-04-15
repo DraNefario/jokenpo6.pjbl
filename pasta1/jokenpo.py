@@ -75,7 +75,7 @@ while modo != 'sair':
     elif modo == 2:
         continuar_jogando = True
         while continuar_jogando:
-            jogador1 = input("Jogador_1, digite pedra, papel, tesoura ou 'sair' para finalizar o Jokenpô: ").lower()
+            jogador1 = input("Jogador 1, digite pedra, papel, tesoura ou 'sair' para finalizar o Jokenpô: ").lower()
             if jogador1 == "sair":
                 print("foram jogadas", vezesJogadas, "partidas")
                 print("Pontuação do jogador 1 = ", placarJogador1)
