@@ -22,8 +22,8 @@ while modo != 'sair':
             jogador = input("Digite pedra, papel, tesoura ou 'sair' para finalizar o Jokenpô: ").lower()
             if jogador == "sair":
                 print("foram jogadas", vezesJogadas, "partidas")
-                print("pontos do jogador = ", placarJogador)
-                print("pontos da máquina = ", placarComputador)
+                print("Pontuação do jogador = ", placarJogador)
+                print("Pontuação do computador = ", placarComputador)
                 print("Obrigado por jogar")
                 print("Alunos: Danillo, Ricardo, Samuel, Thomas")
                 continuar_jogando = False
@@ -45,28 +45,28 @@ while modo != 'sair':
             if computador == jogador:
                 print("Empate!")
                 vezesJogadas += 1
-                print("pontos do jogador = ", placarJogador)
-                print("pontos do computador = ", placarComputador)
+                print("Pontuação do jogador = ", placarJogador)
+                print("Pontuação do computador = ", placarComputador)
             elif (jogador == pedra and computador == tesoura) or \
                     (jogador == papel and computador == pedra) or \
                     (jogador == tesoura and computador == papel):
                 print("Você ganhou")
                 vezesJogadas += 1
                 placarJogador +=1
-                print("pontos do jogador = ", placarJogador)
-                print("pontos do computador = ", placarComputador)
+                print("Pontuação do jogador = ", placarJogador)
+                print("Pontuação do computador = ", placarComputador)
             else:
                 print("Você perdeu")
                 vezesJogadas += 1
                 placarComputador +=1
-                print("pontos do jogador = ", placarJogador)
-                print("pontos do computador = ", placarComputador)
+                print("Pontuação do jogador = ", placarJogador)
+                print("Pontuação do computador = ", placarComputador)
 
             continuar = input("Digite 'continuar' para jogar o Jokenpô de novo ou 'sair' para finalizar o Jokenpô:: ")
             if continuar.lower() == 'sair':
                 print("foram jogadas", vezesJogadas, "partidas")
-                print("pontos do jogador = ", placarJogador)
-                print("pontos do computador = ", placarComputador)
+                print("Pontuação do jogador = ", placarJogador)
+                print("Pontuação do computador = ", placarComputador)
                 print("Obrigado por jogar")
                 print("Alunos: Danillo, Ricardo, Samuel, Thomas")
                 continuar_jogando = False
@@ -78,8 +78,8 @@ while modo != 'sair':
             jogador1 = input("Jogador_1, digite pedra, papel, tesoura ou 'sair' para finalizar o Jokenpô:: ").lower()
             if jogador1 == "sair":
                 print("foram jogadas", vezesJogadas, "partidas")
-                print("pontos do jogador_1 = ", placarJogador1)
-                print("pontos do jogador_2 = ", placarJogador2)
+                print("Pontuação do jogador_1 = ", placarJogador1)
+                print("Pontuação do jogador_2 = ", placarJogador2)
                 print("Obrigado por jogar")
                 print("Alunos: Danillo, Ricardo, Samuel, Thomas")
                 continuar_jogando = False
@@ -91,8 +91,8 @@ while modo != 'sair':
             jogador2 = input("Jogador 2, digite pedra, papel, tesoura ou 'sair' para finalizar o Jokenpô: ").lower()
             if jogador2 == "sair":
                 print("foram jogadas", vezesJogadas, "partidas")
-                print("pontos do jogador_1 = ", placarJogador1)
-                print("pontos do jogador_2 = ", placarJogador2)
+                print("Pontuação do jogador_1 = ", placarJogador1)
+                print("Pontuação do jogador_2 = ", placarJogador2)
                 print("Obrigado por jogar")
                 print("Alunos: Danillo, Ricardo, Samuel, Thomas")
                 continuar_jogando = False
@@ -105,8 +105,8 @@ while modo != 'sair':
             
             if jogador1 == jogador2:
                 print("Empate")
-                print("pontos do jogador_1 = ", placarJogador1)
-                print("pontos da jogador_2 = ", placarJogador2)
+                print("Pontuação do jogador_1 = ", placarJogador1)
+                print("Pontuação do jogador_2 = ", placarJogador2)
                 vezesJogadas += 1
             elif (jogador1 == pedra and jogador2 == tesoura) or \
                     (jogador1 == papel and jogador2 == pedra) or \
@@ -114,20 +114,20 @@ while modo != 'sair':
                 print("O jogador_1 ganhou!")
                 vezesJogadas += 1
                 placarJogador1 +=1
-                print("pontos do jogador_1 = ", placarJogador1)
-                print("pontos do jogador_2 = ", placarJogador2)
+                print("Pontuação do jogador_1 = ", placarJogador1)
+                print("Pontuação do jogador_2 = ", placarJogador2)
             else:
                 print("O jogador 2 ganhou!")
                 vezesJogadas += 1
                 placarJogador2 +=1
-                print("pontos do jogador_1 = ", placarJogador1)
-                print("pontos do jogador_2 = ", placarJogador2)
+                print("Pontuação do jogador_1 = ", placarJogador1)
+                print("Pontuação do jogador_2 = ", placarJogador2)
 
             continuar = input("Digite continuar para jogar novamente ou sair para encerrar: ")
             if continuar.lower() == 'sair':
                 print("foram jogadas", vezesJogadas, "partidas")
-                print("pontos do jogador_1 = ", placarJogador1)
-                print("pontos do jogador_2 = ", placarJogador2)
+                print("Pontuação do jogador_1 = ", placarJogador1)
+                print("Pontuação do jogador_2 = ", placarJogador2)
                 print("Obrigado por jogar")
                 print("Alunos: Danillo, Ricardo, Samuel, Thomas")
                 continuar_jogando = False
@@ -157,8 +157,8 @@ while modo != 'sair':
 
             if computador1 == computador2:
                 print("Empate!")
-                print("pontos do computador_1 = ", placarComputador1)
-                print("pontos da computador_2 = ", placarComputador2)
+                print("Pontuação do computador_1 = ", placarComputador1)
+                print("Pontuação da computador_2 = ", placarComputador2)
                 vezesJogadas += 1
             elif (computador1 == pedra and computador2 == tesoura) or \
                     (computador1 == papel and computador2 == pedra) or \
@@ -166,21 +166,21 @@ while modo != 'sair':
                 print("O computador 1 ganhou!")
                 placarComputador1 += 1
                 vezesJogadas += 1
-                print("pontos do computador_1 = ", placarComputador1)
-                print("pontos da computador_2 = ", placarComputador2)
+                print("Pontuação do computador_1 = ", placarComputador1)
+                print("Pontuação do computador_2 = ", placarComputador2)
             else:
                 print("O computador 2 ganhou!")
                 placarComputador2 += 1
                 vezesJogadas += 1
-                print("pontos do computador_1 = ", placarComputador1)
-                print("pontos da computador_2 = ", placarComputador2)
+                print("Pontuação do computador_1 = ", placarComputador1)
+                print("Pontuação do computador_2 = ", placarComputador2)
 
 
             continuar = input("Digite 'continuar' para jogar o Jokenpô de novo ou 'sair' para finalizar o Jokenpô: ")
             if continuar.lower() == 'sair':
                 print("foram jogadas", vezesJogadas, "partidas")
-                print("pontos do computador_1 = ", placarComputador1)
-                print("pontos da computador_2 = ", placarComputador2)
+                print("Pontuação do computador_1 = ", placarComputador1)
+                print("Pontuação do computador_2 = ", placarComputador2)
                 print("Obrigado por jogar")
                 print("Alunos: Danillo, Ricardo, Samuel, Thomas")
                 continuar_jogando = False
