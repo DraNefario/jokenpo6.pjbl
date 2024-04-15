@@ -101,7 +101,7 @@ while modo != 'sair':
                 print("Escolha inválida. Por favor, digite uma escolha válida.")
                 continue
             
-            print("Resultado: a escolha do Jogador 1 foi de", jogador1, "e a escolha do Jogador 2 foi de", jogador2)
+            print("Resultado: a jogada do Jogador 1 foi", jogador1, "e a jogada do Jogador 2 foi", jogador2)
             
             if jogador1 == jogador2:
                 print("Empate")
