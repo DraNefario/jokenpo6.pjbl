@@ -57,7 +57,11 @@ while modo != 'sair':
                 placarComputador +=1
                 print("Pontuação do jogador = ", placarJogador)
                 print("Pontuação do computador = ", placarComputador)
-              #Aqui, ao final da partida, temos a opção de continuar jogando ou sair.
+                
+            #Oferece ao usuário a opção de continuar jogando ou para sair do programa.
+            #Caso deseje finalizar, mostra a quantidade de partidas jogadas e a pontuação do computador 1 e 2
+            #Mostra também os agradecimentos e os nomes dos alunos e finaliza o programa.
+            #Caso deseje continuar, o programa continua o modo.
             continuar = input("Digitar 'continuar' para jogar de novo ou 'sair' para finalizá-lo:")
             if continuar.lower() == 'sair':
                 print("foram jogadas", vezesJogadas, "partidas")
@@ -107,7 +111,11 @@ while modo != 'sair':
                 placarJogador2 +=1
                 print("Pontuação do jogador_1 = ", placarJogador1)
                 print("Pontuação do jogador_2 = ", placarJogador2)
-                #Opção de continuar jogando ou sair caso sair mostra a tabela. 
+                
+            #Oferece ao usuário a opção de continuar jogando ou para sair do programa.
+            #Caso deseje finalizar, mostra a quantidade de partidas jogadas e a pontuação do computador 1 e 2
+            #Mostra também os agradecimentos e os nomes dos alunos e finaliza o programa.
+            #Caso deseje continuar, o programa continua o modo.
             continuar = input("Digite continuar para jogar novamente ou sair para encerrar: ")
             if continuar.lower() == 'sair':
                 print("foram jogadas", vezesJogadas, "partidas")
