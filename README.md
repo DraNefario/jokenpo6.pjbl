@@ -31,18 +31,18 @@ Opção de parar ou continuar o jogo dentro de uma variável booleana (True or F
 
 Prints das vezes jogadas e placar dos jogadores.
 
-
-
-
-
-
-
-
-
-
 ![image](https://github.com/DraNefario/jokenpo6.pjbl/assets/162203993/0b3008e5-cd7c-4385-8bfc-1ca82a3227dc) 
 
 ![image](https://github.com/DraNefario/jokenpo6.pjbl/assets/162203993/a5b93afa-a88e-4cd6-8c0d-b6a0f8485873)
+
+# Autores:
+Danillo Gonçalves Camargo da Silva
+
+Rodrigo Schiavinatto Plassmann
+
+Samuel Bottesini Lot
+
+Thomas Manussadjian Steinhausser
 
 
 
