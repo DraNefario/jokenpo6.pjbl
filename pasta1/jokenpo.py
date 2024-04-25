@@ -11,9 +11,9 @@ placarJogador1 = 0
 placarJogador2 = 0
 placarComputador1 = 0
 placarComputador2 = 0
-#escolhe o modo de jogo
+#escolhe o modo de jogo antes do loop, ou seja n pode mudar de modo apos a seleçao, somente quando reiniciar
 modo = input("Bem-vindo! Pressione 1 para Humano vs. Computador, 2 para Humano vs. Humano, 3 para Computador vs. Computador e 'sair' para finalizar para finalizar o Jokenpô:")
-#inicia o loop dos modos que para quando o modo for igual a sair
+#inicia o loop dos modos que para quando o modo for igual a sair 
 while modo != 'sair':
     modo = int(modo)
     if modo == 1:
